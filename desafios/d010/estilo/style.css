@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+}
+
+:root{
+    --cor0: #d3ffc1;
+    --cor1: #9bfc9b;
+    --cor2: #02bd02;
+    --cor3: #008f00;
+    --cor4: #007200;
+    --cor5: #004600;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+header{
+    background-color: var(--cor3);
+    color: white;
+}
+header h1{
+    font-family: var(--fonte-destaque);
+}
+nav{
+    background-color: var(--cor5);
+}
+main{
+    background-color: white;
+}
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+main h2{
+    font-family: var(--fonte-android);
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+}
