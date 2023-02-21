@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#area01{
+    background-color: #8B0000;
+}
+#area02{
+    background-color: #556B2F;
+}
+#area03, #area05{
+    background-color: #00008B;
+}
+#area04{
+    background-color: #D3D3D3;
+}
