@@ -4,4 +4,4 @@
 
  Aqui esta um repositório dos exercícios e desafios que eu fiz durante o curso.
 
-Acesse meu primeiro site <a href="desafios\d010\index.html">clicando aqui.</a>
+Acesse meu primeiro site <a href="desafios\d010\index.html" target="_blank">clicando aqui.</a>
