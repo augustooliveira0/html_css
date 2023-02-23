@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+main{
+    background-color: blueviolet;
+}
+section{
+    background-color: black;
+    background-image: url(imagens/astronauta.png);
+}
