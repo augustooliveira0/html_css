@@ -37,6 +37,9 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
 }
+section p{
+    padding-bottom: 2em;
+}
 .comum{
     background-color: white;
     color: black;
@@ -44,12 +47,23 @@ section{
 .imagem{
     background-color: rgba(0, 0, 0, 0.322);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .imagem p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.555);
+    text-shadow: 1px 1px 0px black;
 
+}
+#flor{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+#paginas{
+    background-image: url(imagens/background002.jpg);
 }
 a{
     color: white;
